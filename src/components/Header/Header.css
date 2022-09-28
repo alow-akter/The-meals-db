@@ -1,0 +1,25 @@
+.nav-text {
+    margin-left: 15px;
+}
+
+.mealDb {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgb(128, 127, 127);
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+
+
+.mealDb a {
+    text-decoration: none;
+    margin: 22px;
+    color: black;
+}
+
+.mealDb a:hover {
+    color: orange;
+}

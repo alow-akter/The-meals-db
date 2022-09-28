@@ -1,0 +1,33 @@
+.food {
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 11px;
+    background-color: rgb(240, 195, 112);
+    position: relative;
+}
+
+.food img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.text {
+    text-align: center;
+
+}
+
+.btn-meals {
+    width: 100%;
+    background-color: rgb(165, 156, 156);
+    border-radius: 10px 10px;
+    border: none;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-meals:hover {
+    background-color: darkorange;
+}

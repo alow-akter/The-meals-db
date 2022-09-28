@@ -1,0 +1,32 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 20px;
+}
+
+.foods-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 15px;
+}
+
+.foody-container {
+    background-color: rgb(211, 187, 118);
+    margin: 10px;
+    padding: 10px;
+    position: static;
+    top: 0;
+}
+
+@media screen and (max-width:1300px) {
+    .foods-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .foods-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
